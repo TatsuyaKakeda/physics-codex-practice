@@ -21,7 +21,7 @@ def identity_matrix(n: int) -> Matrix:
 
 
 def jacobi_eigendecomposition(
-    matrix: Matrix, tol: float = 1e-12, max_sweeps: int = 100
+    matrix: Matrix, tol: float = 1e-12, max_sweeps: int = 200
 ) -> Tuple[List[float], Matrix]:
     """Eigen-decomposition of a real symmetric matrix using the Jacobi method."""
     n = len(matrix)
