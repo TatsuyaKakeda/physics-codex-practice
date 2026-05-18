@@ -14,6 +14,20 @@ H = -\sum_i \sigma_i^z\sigma_{i+1}^z - h\sum_i \sigma_i^x
 python3 ising_ed.py
 ```
 
+## テストの実行方法
+
+ユニットテストは Python 標準ライブラリの `unittest` で実行できます。追加の依存関係は不要です。
+
+```bash
+python3 -m unittest
+```
+
+特定のテストファイルだけを実行する場合は、次のように指定します。
+
+```bash
+python3 -m unittest test_ising_ed.py
+```
+
 ## 出力内容
 
 - 基底エネルギー
